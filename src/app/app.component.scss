@@ -1,0 +1,30 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.toggle-group {
+  margin: auto;
+}
+button {
+  cursor: pointer;
+}
+.video-duration {
+  display: flex;
+  border-radius: 16px;
+  background-color: #282727;
+  padding: 8px;
+  color: #fafbfc;
+  position: absolute;
+  right: 16px;
+  bottom: 40px;
+  align-items: center;
+  .indicator {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border: none;
+    margin-right: 10px;
+  }
+}
